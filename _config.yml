@@ -10,7 +10,7 @@ description: "浩然的个人博客，公众号：还没开"
 keywords: 长风, 个人网站
 timezone: Asia/Guangzhou
 encoding: "utf-8"
-repository: mzlogin/mzlogin.github.io
+repository: whr1241/whr1241.github.io
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
     jsdelivr:
@@ -51,12 +51,12 @@ highlight_theme: github
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
+author: Haoran
 organization: 
 organization_url: 
-github_username: mzlogin
-location: Wuhan, China
-email: chumpma@gmail.com
+github_username: whr1241
+location: Guangzhou, China
+email: 2735535199@qq.com
 
 # ---------------- #
 #    Navigation    #
