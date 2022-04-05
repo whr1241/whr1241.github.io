@@ -12,7 +12,7 @@ timezone: Asia/Guangzhou
 encoding: "utf-8"
 repository: whr1241/whr1241.github.io
 # 对 css 和 js 资源的 cdn 加速配置
-cdn:
+cdn:  # 内容分发网络
     jsdelivr:
         enabled: true
 # 可选组件配置
