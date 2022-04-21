@@ -3,7 +3,7 @@
 # ---------------- #
 baseurl:
 url: https://whr1241.github.io/
-date_format: "ordinal"  # ?
+date_format: "ordinal"  # 
 title: 长风
 subtitle: "一个网站"
 description: "浩然的个人博客，公众号：还没开"
