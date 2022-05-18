@@ -1,7 +1,6 @@
 # ---------------- #
 #   Main Configs   #
 # ---------------- #
-
 baseurl:
 url: https://whr1241.github.io/
 date_format: "ordinal"  # 
