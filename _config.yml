@@ -1,172 +1,45 @@
-# ---------------- #
-#   Main Configs   #
-# ---------------- #
-baseurl:
-url: https://whr1241.github.io/
-date_format: "ordinal"  # 
-title: 长风
-subtitle: "一个网站"
-description: "浩然的个人博客，公众号：还没开"
-keywords: 长风, 个人网站
-timezone: Asia/Guangzhou
-encoding: "utf-8"
-repository: whr1241/whr1241.github.io
-# 对 css 和 js 资源的 cdn 加速配置
-cdn:  # 内容分发网络
-    jsdelivr:
-        enabled: true
-# 可选组件配置
-components:
-    # 分享
-    # weibo,qq,wechat,douban,qzone,linkedin,facebook,twitter
-    share:
-        enabled: false
-        hide-platforms: qq,facebook
-    # 不蒜子访问统计
-    busuanzi:
-        enabled: false
-        start_date: 2020-05-03
-    # My Popular Repositories
-    side_bar_repo:
-        enabled: true
-        limit: 5
-    # 文章字数统计
-    word_count:
-        enabled: true
-    # 页面右上角，以及「关于」页面的二维码
-    # 修改图片请替换 assets/images/qrcode.jpg
-    qrcode:
-        enabled: true
-        image_alt: 浩然的微信
-    # 维基索引页使用哪种视图，支持 列表（list）/分类（cate）
-    wiki:
-        view: cate
-# 压缩页面内容
-compress_html:
-  clippings: all
-  comments: ["<!--", "-->"]
-# 代码高亮风格，支持的 theme 列表见 https://github.com/mzlogin/rouge-themes
-highlight_theme: github
 
-# ---------------- #
-#      Author      #
-# ---------------- #
-author: Haoran
-organization: 
-organization_url: 
-github_username: whr1241
-location: Guangzhou, China
-email: 2735535199@qq.com
+# html lang
+language: en
 
-# ---------------- #
-#    Navigation    #
-# ---------------- #
-navs:
-  -
-    href: /
-    label: 首页
+# 导航栏 开头不带斜杠
+menu:
+  博客: ''
+  标签云: tags
+  关于: about
 
-  -
-    href: /categories/
-    label: 分类
+# 建议页数大于1开启
+paginator: false
 
-#   -
-#     href: /archives/
-#     label: 归档
+# 头部
+header:
+  blank: false      # 头部链接是否新标签页打开
 
-#   -
-#     href: /open-source/
-#     label: 开源
+# 文章列表
+list:
+  date: true        # 文章列表是否显示日期
+  wordcount: false  # 是否显示字数统计
 
-  -
-    href: /wiki/
-    label: 维基
+# 脚部
+footer:
+  display: false               # 是否显示footer
+  context: "© smallyu.net"     # footer内容
 
-  -
-    href: /links/
-    label: 链接
+# 文章页
+post:
+  title_h1: false              # 文章是否使用 h1 标题
+  blank: false                 # 文章是否新标签页打开
+  backHome: false              # 文章末尾是否显示返回首页
+  backhome_right: false        # 返回首页内容是否右对齐
+  backHome_hr: false           # 返回首页前是否显示分割线
+  backHome_prefix: "↶ "        # 返回首页的前缀内容
+  backHome_content: "返回首页"   # 返回首页的主体内容
+  backHome_suffix: ""          # 返回首页的后缀内容
 
-  -
-    href: /about/
-    label: 关于
+# 标签云
+tags:
+  all: true       # 标签云页面是否显示全部标签
 
-# ---------------- #
-#       RSS        #
-# ---------------- #
-subscribe_rss: /feed.xml
-
-# ---------------- #
-#      Jekyll      #
-# ---------------- #
-markdown: kramdown
-kramdown:
-    input: GFM
-highlighter: rouge
-paginate: 10
-lsi: false
-quiet: false
-excerpt_separator: "\n\n"
-permalink: /:year/:month/:day/:title/
-plugins:
-    - jekyll-github-metadata
-    - rouge
-#     - jekyll-html-pipeline
-    - jekyll-paginate
-    - jekyll-sitemap
-    - jekyll-feed
-    - jemoji
-#     - jekyll-mentions
-collections:
-    wiki:
-        output: true
-        permalink: /wiki/:path/
-
-# ---------------- #
-#      Comments    #
-# ---------------- #
-# support provider: disqus, gitment, gitalk, utterances
-comments_provider: gitalk
-# !!!重要!!! 请修改下面这些信息为你自己申请的
-# !!!Important!!! Please modify infos below to yours
-# https://disqus.com
-disqus:
-    username: 
-# https://imsun.net/posts/gitment-introduction/
-gitment:
-    owner: mzlogin
-    repo: blog-comments
-    oauth:
-        client_id: d2e1cbbd298958076462
-        client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
-# https://github.com/gitalk/gitalk#install
-gitalk:
-    owner: mzlogin
-    repo: blog-comments
-    clientID: d2e1cbbd298958076462
-    clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
-# https://utteranc.es/
-utterances:
-    repo: mzlogin/blog-comments
-# 在使用其它评论组件时可点击显示 Disqus
-lazy_load_disqus : false
-
-# ---------------- #
-#      Search      #
-# ---------------- #
-simple_jekyll_search:
-    # 是否支持全文搜索
-    fulltext: false
-    # 最多显示多少条搜索结果
-    limit: 10
-
-# ---------------- #
-#      Google      #
-# ---------------- #
-google:
-    analytics_id: UA-80669434-1
-    adsense:
-        footer: true
-        sidebar: true 
-        sidebar-detail: true 
-        content_header: false
-        content_footer: false
+google_analysis:
+  enable: false
+  id: UA-0000
