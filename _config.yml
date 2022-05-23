@@ -1,11 +1,11 @@
 # Site settings
-title: BY Blog
-SEOTitle: 柏荧的博客 | BY Blog
-header-img: img/post-bg-desk.jpg
-email: qiubaiying@gmail.com
-description: "Every failure is leading towards success."
+title: Ora
+SEOTitle: 浩然的博客 | Ora
+header-img: img/post-bg-desk.jpg  # 首页背景图片
+email: wanghaoran1241@gmail.com
+description: "Every failure is leading towards success."  # 显示在哪里？
 keyword: "BY, BY Blog, 柏荧的博客, qiubaiying, 邱柏荧, iOS, Apple, iPhone"
-url: "http://qiubaiying.github.io"          # your host, for absolute URL
+url: "https://whr1241.github.io/"          # your host, for absolute URL，什么影响？
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
 
@@ -13,7 +13,7 @@ github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Goals determine what you going to be!"
 sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
-
+# 个人照片设置
 
 
 # SNS settings
