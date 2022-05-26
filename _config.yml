@@ -4,7 +4,7 @@ SEOTitle: 浩然的博客 | Ora
 header-img: img/post-bg-desk.jpg  # 首页背景图片
 email: wanghaoran1241@gmail.com
 description: "Every failure is leading towards success."  # 显示在哪里？
-keyword: "BY, BY Blog, 柏荧的博客, qiubaiying, 邱柏荧, iOS, Apple, iPhone"
+keyword: "HR, HR Blog, 浩然的博客, wanghaoran, 王浩然, 图像, 前端, iOS, Apple, iPhone"
 url: "https://whr1241.github.io/"          # your host, for absolute URL，什么影响？
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository ？
