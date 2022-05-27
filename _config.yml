@@ -3,7 +3,7 @@ title: Ora
 SEOTitle: 浩然的博客 | Ora
 header-img: img/post-bg-desk.jpg  # 首页背景图片
 email: wanghaoran1241@gmail.com
-description: "Every failure is leading towards success."  # 显示在哪里？
+description: "Every failure is leading towards success."  # 网站介绍
 keyword: "HR, HR Blog, 浩然的博客, wanghaoran, 王浩然, 图像, 前端, iOS, Apple, iPhone"
 url: "https://whr1241.github.io/"          # your host, for absolute URL，什么影响？
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
@@ -21,7 +21,7 @@ RSS: false
 # weibo_username:     qiubaiying
 zhihu_username:     wang-hao-ran-44-54
 github_username:    whr1241  # 链接在哪儿改？
-facebook_username:  王浩然
+facebook_username:  王浩然  # 暂时不确定
 jianshu_username:   fd0f3971ea28
 #twitter_username:   qiubaiying
 
@@ -62,11 +62,11 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
-  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-  repo: qiubaiying.github.io    #仓库名称
-  owner: qiubaiying    #github用户名
-  admin: qiubaiying
+  clientID: 977e57a711b36118cbd1                            #生成的clientID
+  clientSecret: 2cd769a3f758e8e000a0dc470c6565b0120b7b59    #生成的clientSecret
+  repo: whr1241.github.io    #仓库名称
+  owner: whr1241    #github用户名
+  admin: whr1241
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
@@ -86,7 +86,7 @@ ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定�
 
 # Featured Tags
 featured-tags: true                     # 是否使用首页标签
-featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
+featured-condition-size: 2              # 相同标签数量大于这个数，才会出现在首页
 
 
 
