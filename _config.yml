@@ -1,6 +1,7 @@
 # Site settings
-title: Ora
-SEOTitle: 浩然的博客 | Ora
+# 网站的一些配置信息
+title: Oran
+SEOTitle: 浩然的博客 | Oran
 header-img: img/post-bg-desk.jpg  # 首页背景图片
 email: wanghaoran1241@gmail.com
 description: "Every failure is leading towards success."  # 网站介绍
