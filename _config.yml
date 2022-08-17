@@ -28,12 +28,13 @@ sidebar-avatar: /assets/imgs/whr_dorm.jpg      # 个人照片设置use absolute 
 
 # SNS settings, SocialNetworkingServices
 RSS: false
-weibo_username:     没错是我王叔叔
-zhihu_username:     wang-hao-ran-44-54
-github_username:    whr1241  # 链接在哪儿改？
+weibo_username:     whr1241  # ✔
+zhihu_username:     wang-hao-ran-44-54  # ✔
+github_username:    whr1241  # ✔
 facebook_username:  王迁  # 暂时不确定
-jianshu_username:   fd0f3971ea28
-twitter_username:   HR W
+jianshu_username:   fd0f3971ea28  # ✔
+twitter_username:   HRW63791794
+bilibili_username:  258875540
 
 
 # Gems插件
@@ -91,17 +92,17 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "WY",
-        href: "http://zhengwuyang.com"
+        title: "王垠",
+        href: "http://www.yinwang.org/"
     },{
-        title: "简书·BY",
-        href: "http://www.jianshu.com/u/e71990ada2fd"
+        title: "阳志平",
+        href: "https://www.yangzhiping.com/"
     },{
-        title: "Apple",
-        href: "https://apple.com"
+        title: "阮一峰",
+        href: "http://www.ruanyifeng.com/"
     },{
-        title: "Apple Developer",
-        href: "https://developer.apple.com/"
+        title: "刘未鹏",
+        href: "http://mindhacks.cn/"
     },{
         title: "Eddie" ,  # 师弟何尔恒的网站
         href: "https://eddiehe.notelet.so/"
