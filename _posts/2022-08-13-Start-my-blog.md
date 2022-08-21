@@ -1,9 +1,9 @@
 ---
-layout:    post
-title:      "Start my blog"
+layout:     post
+title:      Start my blog
 subtitle:   " \"Hello World, Hello Blog\""
 date:       2022-08-13
-author:     "Oran"
+author:     Oran
 header-img: "assets/imgs/post-bg-2015.jpg"
 catalog: true
 published: true
