@@ -1,3 +1,4 @@
+效果 https://whr1241.github.io/
 参考模板 https://github.com/qiubaiying/qiubaiying.github.io  
 原博客 https://qiubaiying.github.io/
 博客内的原博主的内容还未删掉，待有时间补充自己的博客内容便会去掉原内容
