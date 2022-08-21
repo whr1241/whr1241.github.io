@@ -47,6 +47,7 @@ JS 中一共有八种数据类型：
 注意：内置对象 Function、Array、Date、RegExp、Error 等都是属于 Object 类型。也就是说，除了那七种基本数据类型之外，其他的，都称之为 Object 类型。
 
 JS 中，所有的变量都是保存在栈内存中的；对象是保存到堆内存中的。
+对象的值是保存在堆内存中的，而对象的引用（即变量）是保存在栈内存中的。
 
 JS 语言中，既有 null，又有 undefined：
 Null：空对象，变量初始化时将其设置为 null
@@ -54,7 +55,11 @@ undefined：未定义类型，声明了一个变量，但没有赋值
 10 + null 结果为 10
 10 + undefined 结果为 NaN
 
-运算符：%取余
 三元运算符：`条件表达式 ? 语句1 : 语句2;`
 
-* Without
+传值与传址：
+
+DOM：文档对象模型（Document object Model），用来操作网页上的元素的API。比如让盒子移动、变色、轮播图等。DOM就是由节点组成的。
+
+BOM：浏览器对象模型（Browser Object Model），操作浏览器部分功能的API。比如让浏览器自动滚动。
+
