@@ -93,13 +93,13 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "王垠",
+        title: "王垠",  # 计算机大佬
         href: "http://www.yinwang.org/"
     },{
         title: "阳志平",
         href: "https://www.yangzhiping.com/"
     },{
-        title: "阮一峰",
+        title: "阮一峰",  # 优秀的计算机技术分享者
         href: "http://www.ruanyifeng.com/"
     },{
         title: "刘未鹏",
@@ -107,5 +107,11 @@ friends: [
     },{
         title: "Eddie" ,  # 师弟何尔恒的网站
         href: "https://eddiehe.notelet.so/"
+    },{
+        title: "张鑫旭",  # 前端技术大佬
+        href: "https://www.cnblogs.com/qianguyihao/p/8776837.html"
+    },{
+        title: "千古壹号", # 优质前端技术分享者
+        href: "https://www.qianguyihao.com/"
     }
 ]
