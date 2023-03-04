@@ -3,7 +3,7 @@ layout: page
 description: "Thinking will not overcome fear but action will."
 ---
 
-<!--网站的入口，输出10篇文章的摘要-->
+<!--输出10篇文章的标题摘要-->
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
@@ -26,7 +26,7 @@ description: "Thinking will not overcome fear but action will."
 <hr>
 {% endfor %}
 
-<!-- Pager? -->
+<!-- 底部翻页按钮 -->
 {% if paginator.total_pages > 1 %}
 <ul class="pager">
     {% if paginator.previous_page %}
